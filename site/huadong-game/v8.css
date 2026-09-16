@@ -1,0 +1,40 @@
+.daily-critical { margin-bottom: 18px; }
+.daily-critical.is-done { border-color: #b2c3a7; background: #f0f3ea; }
+.daily-critical.is-done .priority-eyebrow { display: flex; align-items: center; justify-content: space-between; color: #37614b; }
+.daily-critical h3 { font-size: 18px; }
+.agenda-rail { align-self: start; background: #f4f2e8; color: #223a2d; }
+.agenda-rail .daily-critical { background: #e9eee4; border-color: #c1ceba; }
+.agenda-rail .daily-critical h3 { color: #264335; }
+.agenda-rail .daily-critical p { color: #56664f; }
+.agenda-rail .priority-eyebrow { color: #536c46; }
+.agenda-rail .btn.ghost { color: #294b37; background: #e5ebe1; border-color: #b9c9b1; }
+.agenda-rail .btn.ghost:hover { background: #dce6d5; border-color: #7b9970; }
+.agenda-rail summary { color: #536547; }
+.today-agenda { border-top: 1px solid #d4dace; padding-top: 20px; }
+.today-agenda > header { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.today-agenda > header span { font-size: 11px; color: #637466; letter-spacing: .1em; }
+.today-agenda h2 { margin: 3px 0 0; font-size: 24px; color: #214434; }
+.today-agenda > header b { flex-shrink: 0; font-size: 12px; padding: 5px 9px; border: 1px solid #b4c9b6; border-radius: 5px; color: #315841; }
+.agenda-intro, .agenda-empty { font-size: 12px; line-height: 1.7; color: #647267; }
+.agenda-item { padding: 14px 0; border-top: 1px solid #d9ded4; }
+.agenda-owner { display: flex; align-items: center; gap: 8px; margin-bottom: 9px; }
+.agenda-owner > span { font-size: 12px; color: #4b5c50; }
+.agenda-owner small { display: block; margin-top: 2px; font-size: 10px; color: #68786a; }
+.agenda-item > strong { display: block; color: #203e30; line-height: 1.5; font-size: 14px; }
+.agenda-cost { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px; margin: 9px 0; color: #57664c; font-size: 11px; }
+.agenda-item .btn { min-height: 40px; justify-content: space-between; font-size: 12px; }
+.agenda-reason { margin: 7px 0 0; font-size: 12px; color: #895746; }
+.agenda-item.is-blocked { opacity: .84; }
+.agenda-blocked, .agenda-jobs { padding: 12px 0; border-top: 1px solid #d9ded4; font-size: 12px; }
+.agenda-jobs p { margin: 9px 0; }.agenda-jobs small { display: block; color: #6a796d; margin-top: 4px; }
+.agenda-event { padding: 12px; margin: 12px 0; background: #f5f0e4; border-left: 2px solid #ba9252; }
+.agenda-event small, .agenda-event strong { display: block; margin-bottom: 7px; }
+.agenda-event small { color: #876333; font-size: 11px; }.agenda-event strong { font-size: 13px; }
+.agenda-event p, .day-end-choice p, .secretary-boundary { font-size: 12px; line-height: 1.7; color: #697165; }
+.day-end-choice { margin-top: 24px; padding-top: 14px; border-top: 1px solid #d9ded4; }
+.agenda-deadline { color: #955344; border-top: 1px solid #d5c9b6; padding-top: 10px; }
+@media (max-width: 760px) {
+  .agenda-rail { padding: 20px 16px; }
+  .agenda-item .btn { min-height: 46px; }
+  .today-agenda h2 { font-size: 23px; }
+}

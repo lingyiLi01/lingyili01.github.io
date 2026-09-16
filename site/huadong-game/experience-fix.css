@@ -1,0 +1,25 @@
+/* Keep the existing visual identity, but separate light paper and dark scenery. */
+.experience-result{grid-column:1/-1;margin:16px auto;padding:18px 20px;max-width:1400px;background:#edf3e9;color:#203c2e;border:1px solid #92ac96;border-left:4px solid #366447;border-radius:8px;line-height:1.7}
+.experience-result>strong{font-size:18px}.experience-result p{font-size:16px;color:#294533;margin:10px 0 0}.experience-result summary{color:#355942;font-size:14px;min-height:44px;padding-top:10px;cursor:pointer}
+.experience-changes{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:8px;font-size:14px;font-weight:600}.experience-cash{font-weight:600}
+.experience-scene-status{display:grid;gap:10px;background:#193a2d;padding:16px;color:#f0eee0}
+.experience-scene-status .dept-live,.experience-scene-status .scene-seal,.experience-scene-status .business-trace{position:static;transform:none;animation:none;max-width:none;width:100%;margin:0;font-size:16px;pointer-events:auto;box-sizing:border-box}
+.experience-scene-status .dept-chip{max-width:none;font-size:16px}.experience-scene-status .dept-chip small,.experience-scene-status .scene-seal span{font-size:14px;color:#e5eadc;letter-spacing:0;line-height:1.6}
+.experience-scene-status .department-motion:empty{display:none}.experience-scene-status .scene-analyst{display:none}.experience-scene-status .department-motion{width:100%!important;max-width:660px;height:auto;min-height:110px}
+.dialog.experience-paper,.dialog.experience-paper .dialog-head,.dialog.experience-paper .dialog-body{background:#f5f2e7;color:#243c2f}
+.dialog.experience-paper .dialog-head h2,.dialog.experience-paper h3,.dialog.experience-paper h4{color:#203d2d}
+.dialog.experience-paper p{color:#344b3c}.dialog.experience-paper small,.dialog.experience-paper .kicker,.dialog.experience-paper .source{color:#53634e}
+.dialog.experience-paper .icon-btn,.dialog.experience-paper .btn.ghost{color:#294833;border-color:#91a18a}.dialog.experience-paper summary{color:#35503d}
+.dialog.experience-paper .dialog-error{color:#963b2a}.dialog.experience-paper .r8-partner p{color:#294533}
+.dialog.experience-paper .night-report-progress,.dialog.experience-paper .night-report-progress span{color:#53634e}
+.v8-reflection details p,.v8-reflection details summary{color:#294533;font-size:16px;line-height:1.85}.v8-reflection-head small,.v8-result-numbers small{color:#4a5f47;font-size:14px}
+.agenda-rail p,.agenda-rail .agenda-owner>span,.agenda-rail .agenda-cost,.agenda-rail .agenda-owner small,.agenda-rail .agenda-jobs small,.agenda-rail .agenda-event small,.agenda-rail .agenda-event strong,.agenda-rail .agenda-blocked,.agenda-rail .agenda-jobs{font-size:14px;line-height:1.7;color:#43563f}
+.agenda-rail .agenda-item>strong{font-size:16px}.agenda-rail .btn{font-size:14px;min-height:44px}
+.dialog .r8-report-author small,.dialog .r8-knowledge-link,.dialog .night-report-progress,.dialog .r8-market small,.dialog .r8-status,.dialog .r8-feedback-heading small,.dialog .r8-partner small,.dialog .r8-sales{font-size:14px;line-height:1.6}
+.dialog .choice p{font-size:16px;line-height:1.7}.dialog .choice .cost{font-size:14px}
+.dialog.letter-dialog.v6-dialog .choice strong{color:#243c2f!important}.dialog.letter-dialog.v6-dialog .choice .cost{color:#4b5a41!important}
+.dialog.experience-has-confirm[open]{display:flex;flex-direction:column;max-height:92svh}.experience-has-confirm .dialog-head{flex-shrink:0}.experience-has-confirm .dialog-body{min-height:0;flex:1;max-height:none}
+.dialog>.decision-confirm{flex-shrink:0;margin:0;padding:12px 18px;background:#203b2d;border-top:1px solid #86967c;min-height:0}.dialog>.decision-confirm small{color:#f1e5bd;font-size:14px;line-height:1.5}.dialog>.decision-confirm .btn{margin:0;min-height:48px}
+.letter-dialog>.decision-confirm{background:#eee5d0}.letter-dialog>.decision-confirm small{color:#34492f}
+.toast{font-size:14px;max-width:min(600px,90vw);color:#f7f2df}
+@media(max-width:760px){.experience-result{grid-column:1/-1;margin:12px 10px;padding:15px}.experience-scene-status{padding:14px}.dialog .dialog-head .kicker{font-size:12px}.dialog-body{font-size:16px;line-height:1.7}.dialog .r8-report>p,.v8-reflection>p{font-size:16px}.m8-small,.m8-secretary-note{font-size:14px!important}.v8-result-numbers{gap:10px}.v8-ending-trace>span{font-size:13px}.dialog>.decision-confirm{padding-bottom:max(12px,env(safe-area-inset-bottom))}}

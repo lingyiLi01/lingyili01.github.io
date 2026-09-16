@@ -1,0 +1,1 @@
+window.HDV6Content=window.HDContent;window.HDContent=(function cp(x){if(Array.isArray(x))return x.map(cp);if(x&&typeof x==='object')return Object.fromEntries(Object.entries(x).map(([k,v])=>[k,cp(v)]));return x;})(window.HDContent);window.HDContent.days=14;
