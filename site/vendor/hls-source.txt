@@ -1,0 +1,1 @@
+https://github.com/video-dev/hls.js/releases/tag/v1.7.3
