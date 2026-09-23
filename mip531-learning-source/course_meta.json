@@ -1,0 +1,35 @@
+{
+  "version":"1.0.0",
+  "updated":"2026-09-23",
+  "title":"知产实战研习室",
+  "chapters":[
+    {"id":"C","name":"版权","full":"版权与相关权利","scene":"内容工作室","description":"照片、代码、音乐、表演。先理清对象，再谈怎么用。","session":2,"file":"SUSS Session 2 国际和比较版权法.pptx","color":"#3568ae","symbol":"©","timeline":[["1886","伯尔尼公约","围绕作品与作者建立国际保护框架。"],["1961","罗马公约","将表演者、录音制作者和广播机构纳入相关权利框架。"],["1996","WPPT 通过","回应表演与录音在数字环境中的利用。"],["2012 / 2020","北京条约通过 / 生效","扩展与更新视听表演的国际保护。"]]},
+    {"id":"T","name":"商标","full":"商标与地理标志","scene":"品牌事务所","description":"名称、包装、出海、加盟。判断来源识别与权利边界。","session":3,"file":"SUSS session 3 国际和比较商标法.pptx","color":"#8b58a2","symbol":"®","timeline":[["1883","巴黎公约","为商标等工业产权建立跨境保护框架。"],["1994","TRIPS 与 TLT","前者设置有关最低标准，后者着重程序协调。"],["1999","驰名商标联合建议","提供保护标准的参考；建议性质不同于生效法条。"],["2006 / 2009","新加坡条约通过 / 生效","推动商标手续、通信等程序现代化。"]]},
+    {"id":"P","name":"专利","full":"专利及相关保护","scene":"创新实验室","description":"产品、程序、药品、芯片。把技术与保护条件对上。","session":4,"file":"SUSS Session 4 国际和比较专利法.pptx","color":"#087f7a","symbol":"⚙","timeline":[["1883","巴黎公约","形成专利独立性等国际框架。"],["1970","PCT 签订","提供国际申请途径，授权仍由有关国家或地区决定。"],["1994","TRIPS","规定专利条件、权利、例外及有关最低标准。"],["2017","第 31bis 条生效","将特定药品生产出口机制纳入协定。"]]},
+    {"id":"S","name":"商业秘密","full":"商业秘密与经营选择","scene":"企业资料室","description":"配方、数据、员工、合作。查来源、权限与保密措施。","session":5,"file":"SUSS Session 5 国际和比较商业秘密保护.pptx","color":"#b6682f","symbol":"◇","timeline":[["1993 / 1994","中国制度与 TRIPS","中国反不正当竞争法及 TRIPS 分别建立相关保护框架。"],["2019","德国秘密保护立法","作为课件比较不同制度安排的一个节点。"],["2024","印度法律委员会报告","提出专门立法建议；报告及草案不等于已经生效。"],["2025","中国反不正当竞争法修订","本课使用修订后第 10 条讲解，另标课件旧编号。"]]}
+  ],
+  "sources":[
+    {"id":"tripsCT","title":"WTO：TRIPS 版权与商标条款","url":"https://www.wto.org/english/docs_e/legal_e/27-trips_04_e.htm"},
+    {"id":"tripsGI","title":"WTO：地理标志与外观设计","url":"https://www.wto.org/english/docs_e/legal_e/27-trips_04b_e.htm"},
+    {"id":"tripsP","title":"WTO：专利及布图设计条款","url":"https://www.wto.org/english/docs_e/legal_e/31bis_trips_04c_e.htm"},
+    {"id":"trips31bis","title":"WTO：第 31bis 条与药品出口机制附件","url":"https://www.wto.org/english/tratop_e/trips_e/wtl641_e.htm"},
+    {"id":"tripsS","title":"WTO：未披露信息与竞争条款","url":"https://www.wto.org/english/docs_e/legal_e/31bis_trips_04d_e.htm"},
+    {"id":"berne","title":"WIPO：伯尔尼公约资料","url":"https://www.wipo.int/en/web/treaties/ip/berne/index"},
+    {"id":"wppt","title":"WIPO：WPPT 说明","url":"https://www.wipo.int/en/web/treaties/ip/wppt/summary_wppt"},
+    {"id":"beijing","title":"WIPO：北京条约说明","url":"https://www.wipo.int/en/web/treaties/ip/beijing/summary_beijing"},
+    {"id":"pct","title":"WIPO：PCT 国家阶段","url":"https://www.wipo.int/en/web/pct-system/national-phase"},
+    {"id":"epo","title":"EPO：软件与进一步技术效果（2026）","url":"https://www.epo.org/en/legal/guidelines-epc/2026/g_ii_3_6.html"},
+    {"id":"prc","title":"国家知识产权局：2025 修订反不正当竞争法","url":"https://www.cnipa.gov.cn/art/2026/5/20/art_104_206437.html"},
+    {"id":"hgb74","title":"德国 HGB 第 74 条：补偿","url":"https://www.gesetze-im-internet.de/hgb/__74.html"},
+    {"id":"hgb74a","title":"德国 HGB 第 74a 条：合理范围与期限","url":"https://www.gesetze-im-internet.de/hgb/__74a.html"},
+    {"id":"india","title":"印度法律委员会第 289 号报告（法院官网存档）","url":"https://delhihighcourt.nic.in/files/2025-05/reports/289_lcir_part_1.pdf"}
+  ],
+  "sourceMap":{"C":["tripsCT","berne"],"C08":["tripsCT"],"C09":["tripsCT","wppt"],"C10":["beijing"],"T":["tripsCT"],"T09":["tripsGI"],"P":["tripsP"],"P01":["tripsGI"],"P02":["pct","tripsP"],"P05":["epo","tripsP"],"P09":["trips31bis","tripsP"],"S":["tripsS"],"S05":["hgb74","hgb74a","tripsS"],"S06":[],"S07":[],"S08":["prc","tripsS"],"S09":["india","tripsS"]},
+  "corrections":[
+    ["条约最低标准与国内法","保护期、使用要求及例外先注明条约框架，不能当作各国统一的完整规则。"],
+    ["PCT 与药品审批","国际申请不等于全球授权；专利链接不是自动把二十年变为三十年的公式。"],
+    ["商业秘密条文时点","中国相关条文使用 2025 修订法第 10 条；日、韩及台湾地区比较明确以课件给定版本为教学范围。"],
+    ["政策观点与立法建议","地理标志评价、刑罚政策讨论和印度报告建议均不冒充已生效规范。"],
+    ["数据与手续","不将各地数据保护一律写成禁止全部申请；不将录音包装符号当成所有条约的统一保护前提。"]
+  ]
+}
